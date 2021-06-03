@@ -10,7 +10,7 @@ import { Employee } from './employee';
   providedIn: 'root'
 })
 export class EmployeeService {
-  private apiServerUrl="http://localhost:8080";
+  private apiServerUrl="https://employee-manager1-backend.herokuapp.com";
 
     constructor(private http: HttpClient) { }
 
